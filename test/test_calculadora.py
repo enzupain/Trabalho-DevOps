@@ -1,5 +1,5 @@
 import pytest
-from test.calculadora import soma, subtracao, multiplicacao, divisao
+from calculadora import soma, subtracao, multiplicacao, divisao
 from matematica_avancada import potencia, raiz_quadrada, fatorial
 
 def test_soma():
