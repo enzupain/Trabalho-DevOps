@@ -1,4 +1,4 @@
-from calculadora import soma, subtracao, multiplicacao, divisao
+from test.calculadora import soma, subtracao, multiplicacao, divisao
 
 def saudacao():
     print("Olá, bem-vindo à calculadora Python!")
@@ -39,7 +39,7 @@ if __name__ == "__main__":
         except ValueError:
             print("Por favor, digite números válidos.")
 
-            from calculadora import soma, subtracao, multiplicacao, divisao
+            from test.calculadora import soma, subtracao, multiplicacao, divisao
 from matematica_avancada import potencia, raiz_quadrada, fatorial
 
 def saudacao():
