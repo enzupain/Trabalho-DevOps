@@ -1,9 +1,7 @@
 name: Discord
 
 on:
-  push:
-    branches:
-      - '**'
+  - push
 
 jobs:
   discord:
